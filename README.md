@@ -8,14 +8,17 @@ Terraform module which uses SNS topic and Lambda function to sends notifications
 
 # Dependencies and Prerequisites
 Terraform version 0.12 and higher
+
 AWS account
+
 AWS CLI
 
 # Usage
-
+```
 module "sns_to_slack_lambda" {
     source            = "sns_to_slack_lambda"
     slack_webhook_url = "https://hooks.slack.com/services/xxxxxx"
     environment       = "environment"
     icon_emoji        = ":emoji:"
 }
+```
