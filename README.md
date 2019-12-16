@@ -1,4 +1,4 @@
-# terraform-sns-to-slack-lambda
+# Purpose of this Module
 Terraform module which uses SNS topic and Lambda function to sends notifications to Slack
 
 1. Provides a generic way of publishing messages to the Slack channel 
